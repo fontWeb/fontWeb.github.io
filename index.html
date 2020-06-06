@@ -114,12 +114,38 @@
 
 <p> <strong>用法三：$ls 选项 路径</strong><br> 含义：列出指定路径下的所有文件夹和文件的名称，并以指定的格式输出</p>
 <p> 常见的语法：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">$ ls -l /root</span><br><span class="line">$ ls -la /root</span><br><span class="line">```</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ls -l /root</span><br><span class="line">$ ls -la /root</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>pwd 指令</p>
 <p> 打印当前的工作目录路径</p>
 </li>
-<li><p>cd 命令</p>
-<p>  切换目录</p>
+<li><p>cd 命令<br>  切换目录</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~</span><br><span class="line">$ <span class="built_in">cd</span></span><br><span class="line">$ <span class="built_in">cd</span> /</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>mkdir 新建文件夹</p>
+<p>  在当前目录下新建文件夹，相对路径</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir xinjianwenjianjia</span><br></pre></td></tr></table></figure>
+<p> 在根目录下新建文件夹，绝对路径</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir /xinjianwenjianjia</span><br></pre></td></tr></table></figure>
+
+<p> 一次创建多层文件夹</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir -p /aaa/bbb/ccc</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </li>
 </ul>
 <h2 id="三-进阶指令"><a href="#三-进阶指令" class="headerlink" title="三.进阶指令"></a>三.进阶指令</h2>
